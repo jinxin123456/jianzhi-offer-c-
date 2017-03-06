@@ -1,3 +1,4 @@
+
 #include<iostream>
 #include<stack>
 using namespace std;
@@ -29,7 +30,8 @@ int main(){
 		Node->data=i;
 		Node->next=pHead->next;
 		pHead->next=Node;
-	}
+	}	
+	pHead=pHead->next;
 	while(pHead!=NULL){
 	cout<<pHead->data<<"  ";
 	pHead=pHead->next;}
