@@ -1,0 +1,5 @@
+add a new branch:
+	git checkout -b dev
+choose a branch 
+	git checkout branch-name
+
