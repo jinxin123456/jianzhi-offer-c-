@@ -2,4 +2,8 @@ add a new branch:
 	git checkout -b dev
 choose a branch 
 	git checkout branch-name
-
+merge two branch
+	choose the branch-A
+	git merge branch-name-B
+delete branch 
+	git branch -d branch-name
