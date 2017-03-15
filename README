@@ -7,3 +7,9 @@ merge two branch
 	git merge branch-name-B
 delete branch 
 	git branch -d branch-name
+
+delete a remote branch 
+	git push origin :delete-branch-name
+get a file from origin
+	git checkout -- filename
+
